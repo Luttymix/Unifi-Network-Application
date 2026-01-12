@@ -40,7 +40,7 @@ services:
     image: lscr.io/linuxserver/unifi-network-application:latest
     ports:
       - target: 8443
-        published: "8443"
+        published: "8444"
         protocol: tcp
       - target: 3479
         published: "3479"
@@ -49,9 +49,9 @@ services:
         published: "10001"
         protocol: udp
       - target: 8080
-        published: "8080"
+        published: "8100"
         protocol: tcp
-      - target: 1901 #optional
+      - target: 1900 #optional
         published: "1901"
         protocol: udp
       - target: 8843 #optional
