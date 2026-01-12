@@ -37,7 +37,7 @@ services:
     image: lscr.io/linuxserver/unifi-network-application:latest
     ports:
       - target: 8443
-        published: "8444"
+        published: "8443"
         protocol: tcp
       - target: 3478
         published: "3478"
