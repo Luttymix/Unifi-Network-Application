@@ -39,8 +39,8 @@ services:
       - target: 8443
         published: "8443"
         protocol: tcp
-      - target: 3478
-        published: "3478"
+      - target: 3479
+        published: "3479"
         protocol: udp
       - target: 10001
         published: "10001"
@@ -48,8 +48,8 @@ services:
       - target: 8080
         published: "8080"
         protocol: tcp
-      - target: 1900 #optional
-        published: "1900"
+      - target: 1901 #optional
+        published: "1901"
         protocol: udp
       - target: 8843 #optional
         published: "8843"
