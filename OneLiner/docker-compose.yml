@@ -40,7 +40,7 @@ services:
         published: "8444"
         protocol: tcp
       - target: 3478
-        published: "3479"
+        published: "3478"
         protocol: udp
       - target: 10001
         published: "10001"
